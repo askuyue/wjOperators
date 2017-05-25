@@ -1,7 +1,8 @@
 # wjOperators
 Askuyue writed some operators in Julia as a newer.
 
-# Comments for details:
+# Comments for swapmatrix:
+  ## Definition of swapmatrix
   this programm produce a N^2 * N^2 matrix W which satisfying
   
          W' = W^(-1) = W
@@ -14,9 +15,9 @@ Askuyue writed some operators in Julia as a newer.
    
          det(W) = (-1)^(N*(N-1)/2)
          
- # convert another type matrix:
+  ## convert another type matrix:
  
-  convert W to a sparse matrix sparW
+   convert W to a sparse matrix sparW
   
            sparW = sparse(W)
            
